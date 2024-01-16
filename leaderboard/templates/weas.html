@@ -1,0 +1,382 @@
+<style type="text/css">
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.15)),url("{% static 'img/hombre-trotando.jpg' %}" );      
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    padding-bottom: 20rem;
+    background-attachment: fixed;
+  }
+  
+  #presentacion h2 {
+    color: white;
+    font: 700 9vmin/40vh Raleway, cursive;
+    text-align: center;
+  }
+  
+  #carousel-one .carousel-indicators {
+    top: 50px;
+  }
+
+  #carousel-one .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  #carousel-two .carousel-inner img {
+    margin: auto;
+    margin-bottom:50px;
+
+  }
+  
+  #carousel-two .carousel-indicators {
+    bottom:-50px;
+  }
+
+  #carousel-two .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+  
+  #carousel-two img {
+    height: 35vh;
+  }
+   
+</style>
+
+
+<!--<header class="hero text-light text-right pt-5 mt-5" data-react-style="{&quot;backgroundRepeat&quot;:&quot;no-repeat&quot;,&quot;backgroundSize&quot;:&quot;cover&quot;,&quot;backgroundColor&quot;:&quot;transparent&quot;,&quot;backgroundPosition&quot;:&quot;50% 50%&quot;}" style="background-repeat: no-repeat; background-size: cover; background-color: transparent; background-position: left; background-image: url('../static/img/bg-hero.jpg'); background-attachment: fixed; padding-top: 10rem;">      -->
+
+
+  <h1 class="display-1 font-weight-bold mt-20">Santiago Leader-Board</h1>
+
+
+
+      <!-- Recintos Asociados  -->
+      <section id="recintos" class="container-fluid text-center my-6 bg-secondary">
+
+        <h1 class="my-4">Recintos Asociados.</h1>
+  
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+  
+          <!--Controls-->
+          <div class="controls-top">
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+          </div>
+          <!--/.Controls-->
+  
+          <!--Indicators-->
+          <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+            <li data-target="#multi-item-example" data-slide-to="2"></li>
+          </ol>
+          <!--/.Indicators-->
+  
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+  
+            <!--First slide-->
+            <div class="carousel-item active">
+  
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+            <!--/.First slide-->
+  
+            <!--Second slide-->
+            <div class="carousel-item">
+  
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+            <!--/.Second slide-->
+  
+            <!--Third slide-->
+            <div class="carousel-item">
+  
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(53).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(45).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-md-4 clearfix d-none d-md-block">
+                  <div class="card mb-2">
+                    <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Horizontal/Food/4-col/img%20(51).jpg"
+                      alt="Card image cap">
+                    <div class="card-body">
+                      <h4 class="card-title">Card title</h4>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                      <a class="btn btn-primary">Button</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+            </div>
+            <!--/.Third slide-->
+  
+          </div>
+          <!--/.Slides-->
+  
+        </div>
+        <!--/.Carousel Wrapper-->
+    
+      </section>
+
+      <section class="content-info">
+        <div class="container paddings-mini">
+            <div class="row">
+                <div class="col-lg-12">
+                    <table class="table-striped table-responsive table-hover result-point">
+                        <thead class="point-table-head">
+                            <tr>
+                                <th class="text-left">No</th>
+                                <th class="text-left">TEAM</th>
+                                <th class="text-center">P</th>
+                                <th class="text-center">W</th>
+                                <th class="text-center">D</th>
+                                <th class="text-center">L</th>
+                                <th class="text-center">GS</th>
+                                <th class="text-center">GA</th>
+                                <th class="text-center">+/-</th>
+                                <th class="text-center">PTS</th>
+                            </tr>
+                        </thead>
+                        <tbody class="text-center">
+                            <tr>
+                                <td class="text-left number">1 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="http://html.iwthemes.com/sportscup/run/img/clubs-logos/bra.png" alt="Colombia"><span>Colombia</span> </td>
+                                <td>38</td>
+                                <td>26</td>
+                                <td>9</td>
+                                <td>3</td>
+                                <td>73</td>
+                                <td>32</td>
+                                <td>+41</td>
+                                <td>87</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">2 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/100/000000/brazil.png" alt="Brazil"><span>Brazil</span> </td>
+                                <td>38</td>
+                                <td>24</td>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>83</td>
+                                <td>38</td>
+                                <td>+45</td>
+                                <td>79</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">3 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/argentina.png" alt="Argentina"><span>Argentina</span> </td>
+                                <td>38</td>
+                                <td>22</td>
+                                <td>9</td>
+                                <td>7</td>
+                                <td>71</td>
+                                <td>36</td>
+                                <td>+35</td>
+                                <td>75</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">4<i class="fa fa-caret-down" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/japan.png" alt="Japan"><span>Japan</span> </td>
+                                <td>38</td>
+                                <td>20</td>
+                                <td>10</td>
+                                <td>8</td>
+                                <td>62</td>
+                                <td>37</td>
+                                <td>+25</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">5 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/flag.png" alt="Senegal"><span>Senegal</span> </td>
+                                <td>38</td>
+                                <td>19</td>
+                                <td>7</td>
+                                <td>12</td>
+                                <td>58</td>
+                                <td>53</td>
+                                <td>+5</td>
+                                <td>64</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">6<i class="fa fa-caret-down" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/poland.png" alt="Poland"><span>Poland</span> </td>
+                                <td>38</td>
+                                <td>18</td>
+                                <td>8</td>
+                                <td>12</td>
+                                <td>52</td>
+                                <td>48</td>
+                                <td>+4</td>
+                                <td>62</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">7<i class="fa fa-caret-down" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/russian-federation.png" alt="Russia"><span>Russia</span> </td>
+                                <td>38</td>
+                                <td>18</td>
+                                <td>6</td>
+                                <td>14</td>
+                                <td>54</td>
+                                <td>33</td>
+                                <td>+21</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">8<i class="fa fa-caret-up" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/iran.png" alt="Iran"><span>Iran</span> </td>
+                                <td>38</td>
+                                <td>12</td>
+                                <td>11</td>
+                                <td>15</td>
+                                <td>48</td>
+                                <td>50</td>
+                                <td>-2</td>
+                                <td>47</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">9 <i class="fa fa-circle" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/spain.png" alt="Spain"><span>Spain</span> </td>
+                                <td>38</td>
+                                <td>26</td>
+                                <td>9</td>
+                                <td>3</td>
+                                <td>73</td>
+                                <td>32</td>
+                                <td>+41</td>
+                                <td>87</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left number">10<i class="fa fa-circle" aria-hidden="true"></i></td>
+                                <td class="text-left"> <img src="https://img.icons8.com/color/48/000000/france.png" alt="France"><span>France</span> </td>
+                                <td>38</td>
+                                <td>24</td>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>83</td>
+                                <td>38</td>
+                                <td>+45</td>
+                                <td>79</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
